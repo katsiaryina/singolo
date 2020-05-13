@@ -1,0 +1,31 @@
+@mixin font($size, $height: $size, $weight: bold, $style: normal) {
+  font-size: $size;
+  font-style: $style;
+  font-weight: $weight;
+  line-height: $height;
+}
+
+@mixin columns($width) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space -between;
+  > * {
+    flex-basis: $width;
+  }
+}
+
+@mixin heading(
+  $color: $color-heading,
+  $size: 3rem,
+  $height: 3.6rem,
+  $weight: bold,
+  $style: normal,
+  $text-align: justify
+) {
+  font-size: $size;
+  font-height: $height;
+  font-weight: $weight;
+  font-style: $style;
+  color: $color;
+  text-align: $text-align;
+}

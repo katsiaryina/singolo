@@ -1,0 +1,86 @@
+.contact {
+  background: $color-primary;
+  padding: 59px 0 64px;
+  border-bottom: $color-border-primary;
+}
+
+.contact__main-title {
+  @include heading($color: $color-text-additional);
+}
+
+.contact__main-text {
+  @include font($size: 1.8rem, $height: 3rem, $weight: 300);
+  color: $color-text-additional;
+  text-align: justify;
+  padding: 14px 0 56px;
+}
+
+.contact__form {
+  margin-right: 20px;
+}
+
+.contact__form input,
+.contact__form textarea {
+  @include font($size: 1.2rem, $height: 2.2rem, $weight: 400);
+  border: none;
+  background: $color-bg-input;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 16px;
+  padding: 8px 15px;
+  width: 100%;
+  &:focus,
+  &:hover {
+    background: #2d303a;
+    outline: none;
+  }
+}
+.contact__form input:focus::placeholder,
+.contact__form input:hover::placeholder,
+.contact__form textarea:focus::placeholder,
+.contact__form textarea:hover::placeholder {
+  color: #f0d8d9;
+}
+
+::placeholder {
+  color: $color-input;
+}
+
+.contact__content {
+  width: 300px;
+}
+.contact a {
+  @include font($size: 1.2rem, $height: 2.2rem, $weight: normal);
+  text-decoration: none;
+  display: block;
+  color: $color-text-additional;
+}
+
+.contact__title {
+  @include font($size: 1.8rem, $weight: 900);
+  color: $color-text-additional;
+}
+
+.contact__text {
+  @include font($size: 1.2rem, $height: 2.2rem, $weight: normal);
+  text-align: justify;
+  color: $color-text-additional;
+  padding: 7px 0 22px;
+}
+
+.button {
+  display: inline-block;
+  padding: 7px;
+  background: #d6564f;
+  border: none;
+  border-radius: 5px;
+  color: $color-input;
+  &:hover {
+    background: #2d303a;
+    color: #f0d8d9;
+  }
+}
+
+.contact-object {
+  padding-right: 13px;
+}

@@ -1,0 +1,25 @@
+.slider {
+  background: $color-primary;
+  padding: 117px 2px;
+  border-bottom: $color-border-primary 6px solid;
+}
+
+.slider__wrapper {
+  position: relative;
+}
+
+.slider__phones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  top: 166px;
+  &-right {
+    right: 40px;
+  }
+}

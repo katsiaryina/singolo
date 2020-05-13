@@ -1,0 +1,18 @@
+.tag {
+  margin-right: 10px;
+}
+
+.tag {
+  border-radius: 5px;
+  padding: 3px 5px;
+  cursor: pointer;
+  @include font($size: 1.2rem, $weight: normal);
+  &_selected {
+    color: $color-tag-selected;
+    border: 1px solid $color-tag-selected;
+  }
+  &_bordered {
+    color: $color-text;
+    border: 1px solid $color-text;
+  }
+}

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Singolo</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <a href="#" class="logo">
+          <h1>
+            singolo
+            <span class="logo__symbol">*</span>
+          </h1>
+        </a>
+        <nav class="header__navigation">
+          <ul class="navigation">
+            <li class="navigation__link navigation__link_current">
+              <a href="#">home</a>
+            </li>
+            <li class="navigation__link">
+              <a href="#">services</a>
+            </li>
+            <li class="navigation__link">
+              <a href="#">portfolio</a>
+            </li>
+            <li class="navigation__link">
+              <a href="#">about</a>
+            </li>
+            <li class="navigation__link">
+              <a href="#">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="slider">
+      <div class="wrapper slider__wrapper">
+        <object
+          type="image/svg+xml"
+          data="./src/img/slider/arrow-left.svg"
+          class="arrow arrow-left"
+        >
+          Your browser does not support SVG
+        </object>
+        <div class="slider__phones">
+          <img
+            src="./src/img/slider/phone-vertical.png"
+            alt="Vertical phone illustration"
+          />
+          <img
+            src="./src/img/slider/phone-horizontal.png"
+            alt="Horizontal phone illustration"
+          />
+        </div>
+        <object
+          type="image/svg+xml"
+          data="./src/img/slider/arrow-right.svg"
+          class="arrow arrow-right"
+        >
+          Your browser does not support SVG
+        </object>
+      </div>
+    </section>
+    <section class="services">
+      <div class="wrapper">
+        <h2 class="services__main-title">Our Services</h2>
+        <p class="services__main-text">
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+          tortor mauris condimentum nibh.
+        </p>
+        <div class="layout-3-column">
+          <!-- first service -->
+          <div class="service layout-2-column_not-equal">
+            <div class="ico ico_pencil"></div>
+            <div class="service__content">
+              <h3 class="services__title">
+                Custom Design
+              </h3>
+              <p class="services__text">
+                Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
+                laoreet, viverra lacus ut, ultrices velit.
+              </p>
+            </div>
+          </div>
+          <!-- second service -->
+          <div class="service layout-2-column_not-equal">
+            <div class="ico ico_bulb"></div>
+            <div class="service__content">
+              <h3 class="services__title">
+                Inovative Ideas
+              </h3>
+              <p class="services__text">
+                Quisque luctus, quam eget molestie commodo, lacus purus cursus
+                purus, nec rutrum tellus dolor id lorem.
+              </p>
+            </div>
+          </div>
+          <!-- third service -->
+          <div class="service layout-2-column_not-equal">
+            <div class="ico ico_heart"></div>
+            <div class="service__content">
+              <h3 class="services__title">
+                Love Is The Answer
+              </h3>
+              <p class="services__text">
+                Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
+                turpis, et consequat felis. Quisque condimentum.
+              </p>
+            </div>
+          </div>
+          <!-- forth service -->
+          <div class="service layout-2-column_not-equal">
+            <div class="ico ico_phone"></div>
+            <div class="service__content">
+              <h3 class="services__title">
+                Responsive Layout
+              </h3>
+              <p class="services__text">
+                Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas
+                blandit nunc ligula. Praesent elit leo.
+              </p>
+            </div>
+          </div>
+          <!-- fifth service -->
+          <div class="service layout-2-column_not-equal">
+            <div class="ico ico_thought"></div>
+            <div class="service__content">
+              <h3 class="services__title">
+                24/7 Support
+              </h3>
+              <p class="services__text">
+                Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
+                Nulla a sem erat. Pellentesque egestas venenatis lorem .
+              </p>
+            </div>
+          </div>
+          <!-- sixth service -->
+          <div class="service layout-2-column_not-equal">
+            <div class="ico ico_star"></div>
+            <div class="service__content">
+              <h3 class="services__title">
+                Feel Like A Star
+              </h3>
+              <p class="services__text">
+                Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
+                nibh. Fusce vitae aliquam tellus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="wrapper">
+        <h2 class="portfolio__title">
+          Portfolio
+        </h2>
+        <p class="portfolio__text">
+          Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit.
+        </p>
+        <div class="portfolio__tags tags">
+          <span class="tag tag_selected">All</span>
+          <span class="tag tag_bordered">Web Design</span>
+          <span class="tag tag_bordered">Graphic Design</span>
+          <span class="tag tag_bordered">Artwork</span>
+        </div>
+        <div class="portfolio__gallery">
+          <img
+            src="./src/img/portfolio/portfolio-1.jpg"
+            alt="Ship illustration"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-2.jpg"
+            alt="Smiling girl with ice-cream illustration"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-3.jpg"
+            alt="City at night illustration"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-4.jpg"
+            alt="Robot with heart illustration"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-5.jpg"
+            alt="Strange creatures illustation"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-6.jpg"
+            alt="Factory illustraion"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-7.jpg"
+            alt="Robots rockets illustration"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-8.jpg"
+            alt="chicken tree illustration"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-9.jpg"
+            alt="Monster with castle illustration"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-10.jpg"
+            alt="Caligraphy illustration"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-11.jpg"
+            alt="Creepy monster illustration"
+          />
+          <img
+            src="./src/img/portfolio/portfolio-12.jpg"
+            alt="Broken glass illustration"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="wrapper">
+        <h2 class="about__main-title">About Us</h2>
+        <p class="about__main-text">
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+          tortor mauris condimentum nibh.
+        </p>
+        <div class="layout-3-column">
+          <!-- first employee -->
+          <div class="about__employee">
+            <img src="./src/img/about/photo-1.jpg" alt="Adam Jensen photo" />
+            <h3 class="about__title">Adam Jensen</h3>
+            <p class="about__text">
+              Quisque luctus, quam eget molestie commodo, lacus purus cursus
+              purus, nec rutrum tellus dolor id lorem.
+            </p>
+            <div class="social-icons">
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-facebook.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-google-plus.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-twitter.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-linkedin.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+            </div>
+          </div>
+          <!-- second employee -->
+          <div class="about__employee">
+            <img src="./src/img/about/photo-2.jpg" alt="Desmond Miles photo" />
+            <h3 class="about__title">Desmond Miles</h3>
+            <p class="about__text">
+              Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
+              laoreet, viverra lacus ut, ultrices velit.
+            </p>
+            <div class="social-icons">
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-facebook.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-google-plus.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-twitter.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-linkedin.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+            </div>
+          </div>
+          <!-- third employee -->
+          <div class="about__employee">
+            <img src="./src/img/about/photo-3.jpg" alt="Scolara Visari photo" />
+            <h3 class="about__title">Scolara Visari</h3>
+            <p class="about__text">
+              Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis,
+              et consequat felis. Quisque condimentum.
+            </p>
+            <div class="social-icons">
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-facebook.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-google-plus.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-twitter.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+
+              <a href="#">
+                <object
+                  type="image/svg+xml"
+                  data="./src/img/about/ico-linkedin.svg"
+                  class="social-object"
+                >
+                  Your browser does not support SVG
+                </object>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="wrapper">
+        <h2 class="contact__main-title">
+          Get a Quote
+        </h2>
+        <p class="contact__main-text">
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+          tortor mauris condimentum nibh.
+        </p>
+        <div class="layout-2-column">
+          <div class="contact__form">
+            <form action="POST">
+              <input
+                type="text"
+                name="name"
+                required
+                placeholder="Name (Required)"
+              />
+              <input
+                type="email"
+                name="email"
+                required
+                placeholder="Email (Required)"
+              />
+              <input type="text" name="subject" placeholder="Subject" />
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols="30"
+                rows="10"
+                placeholder="Describe your project in detail..."
+              ></textarea>
+              <div class="button">Submit</div>
+            </form>
+          </div>
+          <div class="contact__content">
+            <h3 class="contact__title">Contact Information</h3>
+            <p class="contact__text">
+              Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
+              Fusce vitae aliquam tellus. Proin sit amet voutpat libero. Nulla
+              sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et
+              consequat felis.
+            </p>
+
+            <a href="#">
+              <object
+                type="image/svg+xml"
+                data="./src/img/contact/ico-location.svg"
+                class="contact-object"
+              >
+                Your browser does not support SVG
+              </object>
+              <span>Elm St. 14/05 Lost City</span>
+            </a>
+
+            <a href="tel:+375111111111">
+              <object
+                type="image/svg+xml"
+                data="./src/img/contact/ico-phone.svg"
+                class="contact-object"
+              >
+                Your browser does not support SVG
+              </object>
+              <span>03528 331 86 35</span>
+            </a>
+
+            <a href="mailto:emailname@gmail.com">
+              <object
+                type="image/svg+xml"
+                data="./src/img/contact/ico-mail.svg"
+                class="contact-object"
+              >
+                Your browser does not support SVG
+              </object>
+              <span>info@singolo.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrapper wrapper__footer">
+        <div class="social-icons">
+          <a href="#">
+            <object
+              type="image/svg+xml"
+              data="./src/img/about/ico-facebook.svg"
+              class="social-object"
+            >
+              Your browser does not support SVG
+            </object>
+          </a>
+
+          <a href="#">
+            <object
+              type="image/svg+xml"
+              data="./src/img/about/ico-google-plus.svg"
+              class="social-object"
+            >
+              Your browser does not support SVG
+            </object>
+          </a>
+
+          <a href="#">
+            <object
+              type="image/svg+xml"
+              data="./src/img/about/ico-twitter.svg"
+              class="social-object"
+            >
+              Your browser does not support SVG
+            </object>
+          </a>
+
+          <a href="#">
+            <object
+              type="image/svg+xml"
+              data="./src/img/about/ico-linkedin.svg"
+              class="social-object"
+            >
+              Your browser does not support SVG
+            </object>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

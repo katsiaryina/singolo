@@ -1,0 +1,40 @@
+.navigation {
+  display: flex;
+}
+
+.navigation a {
+  color: $color-light;
+}
+.navigation__link_current a {
+  color: $color-primary;
+}
+
+.navigation .navigation__link {
+  text-transform: uppercase;
+  list-style: none;
+  padding: 0 15px;
+  @include font($size: 1.2rem, $height: 1.4rem, $weight: bold);
+  cursor: pointer;
+  @extend %transition;
+}
+
+.navigation__link a {
+  position: relative;
+  &:hover {
+    color: $color-primary;
+  }
+  &::after {
+    content: "·";
+    position: absolute;
+    top: 0;
+    left: -1.35em;
+    color: $color-light;
+    border-radius: 50%;
+  }
+}
+
+.navigation__link:first-of-type a {
+  &::after {
+    content: "";
+  }
+}

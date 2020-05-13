@@ -1,0 +1,59 @@
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ico_pencil,
+.ico_bulb,
+.ico_heart,
+.ico_phone,
+.ico_thought,
+.ico_star {
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+}
+
+.ico_pencil {
+  background-image: url("../../src/img/services/pen.svg");
+}
+.ico_bulb {
+  background-image: url("../../src/img/services/bulb.svg");
+}
+.ico_heart {
+  background-image: url("../../src/img/services/heart.svg");
+}
+.ico_phone {
+  background-image: url("../../src/img/services/phone.svg");
+}
+.ico_thought {
+  background-image: url("../../src/img/services/thought.svg");
+}
+.ico_star {
+  background-image: url("../../src/img/services/star.svg");
+}
+
+.social-icons {
+  display: flex;
+  > * {
+    margin-right: 6px;
+  }
+}
+
+.social-object {
+  width: 32px;
+  width: 32px;
+}
+
+.social-path,
+.social-path2,
+.social-path3 {
+  @extend %transition;
+}
+.social-svg:hover {
+  .social-path,
+  .social-path2,
+  .social-path3 {
+    fill: gold;
+  }
+}

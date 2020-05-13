@@ -1,0 +1,16 @@
+.header {
+  background: $color-bg-dark;
+  padding: 30px;
+  border-bottom: $color-border-dark 6px solid;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a {
+  // color: $color-light;
+  text-decoration: none;
+}

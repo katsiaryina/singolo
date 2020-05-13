@@ -1,0 +1,26 @@
+.portfolio {
+  background: $color-bg-dark;
+  padding: 59px 0 73px;
+  border-bottom: 6px solid $color-border-dark;
+}
+
+.portfolio__title {
+  @include heading;
+  padding-bottom: 14px;
+}
+
+.portfolio__text {
+  @include font($size: 1.8rem, $height: 3rem, $weight: 300);
+  color: $color-text;
+  text-align: justify;
+}
+
+.portfolio__tags {
+  padding: 18px 0;
+}
+
+.portfolio__gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
